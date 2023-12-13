@@ -98,7 +98,8 @@ class FFileIoStoreReader:
         return self.ContainerFile.MountPoint
 
     def close(self):
-        self.ContainerFile.FileHandle.close()
+        for stream in self.ContainerFile.FileHandles:
+            stream.close()
 
     @property
     def IsValidIndex(self):
