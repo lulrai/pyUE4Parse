@@ -1,9 +1,7 @@
-**UE4/5 Asset Parser**
-
-<!-- ~[![pypi](https://img.shields.io/pypi/v/ue4parse.svg)](https://pypi.python.org/pypi/ue4parse) -->
+**UE4/5 Asset Parser (Closing Stream Fix)**
 
 ## Installation
-`python -m pip install git+https://github.com/MinshuG/pyUE4Parse.git`
+`python -m pip install git+https://github.com/lulrai/pyUE4Parse.git`
 
 ## Features
 * Parse UE4/5 asset files(.uasset, .umap, .uexp, .ubulk)
